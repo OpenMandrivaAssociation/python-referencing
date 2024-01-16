@@ -8,6 +8,8 @@ License:	MIT
 Group:		Development/Python
 URL:		https://pypi.org/project/referencing/
 Source0:	https://pypi.org/packages/source/r/%{module}/%{module}-%{version}.tar.gz
+BuildRequires:	python%{pyver}dist(hatchling)
+BuildRequires:	python%{pyver}dist(hatch-vcs)
 BuildRequires:	python%{pyver}dist(pip)
 BuildArch:	noarch
 
