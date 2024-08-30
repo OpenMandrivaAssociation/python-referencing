@@ -2,7 +2,7 @@
 
 Summary:	JSON Referencing + Python
 Name:		python-%{module}
-Version:	0.33.0
+Version:	0.35.1
 Release:	1
 License:	MIT
 Group:		Development/Python
